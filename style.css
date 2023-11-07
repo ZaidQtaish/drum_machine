@@ -1,0 +1,59 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #414a4c;
+  }
+  
+  #drum-machine {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: #0e1111;
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  #display {
+    background-color: #232b2b;
+    border: #fff solid 1px;
+    margin-bottom: 7px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
+  .drum-set {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    width: auto;
+    margin: auto;
+    color: rgb(0, 0, 0, 0);
+  }
+  
+  .drum {
+    background: linear-gradient(
+      0deg,
+      rgba(147, 34, 195, 1) 38%,
+      rgba(45, 77, 253, 1) 100%
+    );
+    width: 80px;
+    height: 80px;
+    border: 1px solid #333;
+    border-radius: 10%;
+    margin: 5px;
+  }
+  
+  .default-color {
+    background: linear-gradient(
+      0deg,
+      rgba(34, 193, 195, 1) 38%,
+      rgba(45, 77, 253, 1) 100%
+    );
+  }
+  
